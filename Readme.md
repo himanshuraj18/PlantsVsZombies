@@ -28,8 +28,11 @@ Made as a part of project in Advanced Programming course at IIIT-Delhi.
 
 ### Screenshots of Game
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-1.png)
+
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-2.png)
+
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-3.png)
+
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-4.png)
 
 **Note -** Delete all the .__ files(if any) present in src/sample directory before running this project.
