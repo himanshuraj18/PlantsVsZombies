@@ -39,8 +39,4 @@ public class Login extends Application implements Serializable {
     public static void setUsers(ArrayList<User> u) {
         users = u;
     }
-
-
-
-
 }

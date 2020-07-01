@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="PVZ">
+    <output-path>$PROJECT_DIR$/../../../../../../Program Files/Java/jdk1.8.0_251</output-path>
+    <root id="root">
+      <element id="archive" name="PVZ.jar">
+        <element id="module-output" name="PVZ" />
+      </element>
+    </root>
+  </artifact>
+</component>

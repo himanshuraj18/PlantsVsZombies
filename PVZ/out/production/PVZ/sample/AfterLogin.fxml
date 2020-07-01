@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAfterLogin">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="950.0" pickOnBounds="true">
+         <image>
+            <Image url="@AfterLogin.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="newg" layoutX="375.0" layoutY="180.0" mnemonicParsing="false" onAction="#start_new_game" onMouseEntered="#mouse_click" prefHeight="46.0" prefWidth="212.0" text="Start New Game" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="load" layoutX="375.0" layoutY="256.0" mnemonicParsing="false" onAction="#load_saved_game" onMouseEntered="#mouse_click" prefHeight="46.0" prefWidth="212.0" text="Load Saved Game">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="choose" layoutX="375.0" layoutY="332.0" mnemonicParsing="false" onAction="#choose_level" onMouseEntered="#mouse_click" prefHeight="46.0" prefWidth="212.0" text="Choose Level">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="375.0" layoutY="411.0" mnemonicParsing="false" onAction="#exit_button" onMouseEntered="#mouse_click" prefHeight="46.0" prefWidth="212.0" text="Exit">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Pane fx:id="pane" disable="true" prefHeight="600.0" prefWidth="950.0" visible="false">
+         <children>
+            <ImageView fx:id="savegame_bg" fitHeight="600.0" fitWidth="950.0" pickOnBounds="true">
+               <image>
+                  <Image url="@img/savedgames.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="back_button" alignment="CENTER" layoutX="51.0" layoutY="515.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: silver;" text="&lt; Go Back">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="sg1" alignment="CENTER" layoutX="302.0" layoutY="274.0" mnemonicParsing="false" onAction="#load_sg1" style="-fx-background-color: lightgreen;" text="SAVEGAME 1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="sg2" alignment="CENTER" layoutX="530.0" layoutY="270.0" mnemonicParsing="false" onAction="#load_sg2" style="-fx-background-color: lightgreen;" text="SAVEGAME 2" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="sg3" alignment="CENTER" layoutX="304.0" layoutY="355.0" mnemonicParsing="false" onAction="#load_sg3" style="-fx-background-color: pink;" text="SAVEGAME 3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="sg4" alignment="CENTER" layoutX="531.0" layoutY="356.0" mnemonicParsing="false" onAction="#load_sg4" style="-fx-background-color: pink;" text="SAVEGAME 4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <TextField fx:id="tf_heading" alignment="CENTER" editable="false" focusTraversable="false" layoutX="301.0" layoutY="187.0" prefHeight="86.0" prefWidth="396.0" style="-fx-background-color: fjdnfjnvjfv;" text="SAVED     GAMES">
+               <effect>
+                  <Lighting bumpInput="$null" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="196.0" fitWidth="138.0" layoutX="737.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/modified_zombie.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
