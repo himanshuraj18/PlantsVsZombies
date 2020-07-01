@@ -12,7 +12,8 @@ Made as a part of project in Advanced Programming course at IIIT-Delhi.
 4. Multiple User Support.
 
 ### Tools and Technologies Used-
-1. JavaFX:  Animations in the game were implemented using Controllers and AnimationTimer available in the JavaFX platform.
+1. JavaFX
+   Animations in the game were implemented using Controllers and AnimationTimer available in the JavaFX platform.
 2. FXML Scene Builder
 3. Intellij IDE
 4. Lucidchart for UML Diagram
