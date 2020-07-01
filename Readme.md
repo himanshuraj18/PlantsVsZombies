@@ -22,9 +22,9 @@ Made as a part of project in Advanced Programming course at IIIT-Delhi.
    - Model : All classes and implementation of different functionality.
    - View  : FXML (for GUI) files
    - Controller : It uses model to make changes in view (or GUI).
-2. Iterator - To ensure that Plant, Zombie and Lawnmower lists are accessed in a synchronized way.
+2. Iterator to ensure that Plant, Zombie and Lawnmower lists are accessed in a synchronized way.
 3. Facade for menu based implementation.
-4. Singleton: For the database and for progress bar feature, as we need only one reference through out the game.
+4. Singleton for the database and for progress bar feature, as we need only one reference through out the game.
 
 ### Screenshots of Game
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-1.png)
