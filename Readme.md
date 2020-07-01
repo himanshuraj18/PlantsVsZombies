@@ -7,7 +7,7 @@ Made as a part of project in Advanced Programming course at IIIT-Delhi.
 
 ### Features-
 1. 5 levels with increasing difficulty.
-2. 4 types of different Plants to protect your arena.
+2. 4 different types of Plants to protect your arena.
 3. Restart, Load and Save game feature.
 4. Multiple User Support.
 
