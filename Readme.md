@@ -49,7 +49,8 @@ Made as a part of project in Advanced Programming course at IIIT-Delhi.
    1. Clone this repository.
    2. Go to PlantsVsZombies/PVZ/src folder from terminal.
    3. Compile the sample package using following command.
-        ```javac ./sample/Login.java```
+        - ```javac ./sample/Login.java```
    4. Run the game using following command.
-        ```java sample.Login```
+        - ```java sample.Login```
+
 Enjoy the Game!!
