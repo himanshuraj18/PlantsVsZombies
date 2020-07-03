@@ -29,10 +29,27 @@ Made as a part of project in Advanced Programming course at IIIT-Delhi.
 ### Screenshots of Game
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-1.png)
 
+
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-2.png)
+
 
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-3.png)
 
+
 ![alt_text](https://github.com/himanshuraj18/PlantsVsZombies/blob/master/Screenshots/final-4.png)
 
-**Note -** Delete all the .__ files(if any) present in src/sample directory before running this project.
+
+### How to run this Game?
+- For running it in Eclipse or IntelliJ IDE
+   1. Clone this repository.
+   2. Open the folder PlantsVsZombies.
+   3. Open PVZ folder as IntelliJ or Eclipse project.
+   4. Build and Run.
+- For running it from terminal or command prompt
+   1. Clone this repository.
+   2. Go to PlantsVsZombies/PVZ/src folder from terminal.
+   3. Compile the sample package using following command.
+      javac ./sample/Login.java
+   4. Run the game using following command.
+      java sample.Login
+Enjoy the Game!!
